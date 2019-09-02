@@ -2,7 +2,7 @@
 
 
 // Make connection
-let socket = io.connect('http://localhost:4000' || process.env.PORT);
+let socket = io.connect('http://localhost:4000' || 'https://the-hmu-app.herokuapp.com/');
 
 io.configure(function () { 
   io.set("transports", ["xhr-polling"]); 
