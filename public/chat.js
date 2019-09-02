@@ -2,7 +2,7 @@
 
 
 // Make connection
-let socket = io.connect('http://localhost:4000');
+let socket = io.connect('http://localhost:4000' || process.env.PORT);
 
 // Query DOM
 let message = document.getElementById('message'),
