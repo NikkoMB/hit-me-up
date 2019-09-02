@@ -4,6 +4,11 @@
 // Make connection
 let socket = io.connect('http://localhost:4000' || process.env.PORT);
 
+io.configure(function () { 
+  io.set("transports", ["xhr-polling"]); 
+  io.set("polling duration", 10); 
+});
+
 // Query DOM
 let message = document.getElementById('message'),
       handle = document.getElementById('handle'),
