@@ -1,0 +1,71 @@
+body{
+  font-family: 'Nunito';
+}
+
+h2{
+  font-size: 50px;
+  font-family: 'Luckiest Guy', cursive;
+  padding: 10px 20px;
+  color: #3b5998;
+}
+
+#mario-chat{
+  margin: 30px auto;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+  border-radius: 2px;
+}
+
+#chat-window{
+  height: 600px;
+  overflow: auto;
+  background-image: url('images/email.png');
+}
+
+img{
+  height: 80px;
+}
+
+#output p {
+  width: 300px;
+  font-weight: 900;
+  color: #00bfb6;
+  font-family: arial;
+  font-size: 20px;
+}
+
+#date{
+  font-size: 20px;
+}
+
+
+
+#feedback p{
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong{
+  color: white;
+  background-color: goldenrod;
+}
+
+label{
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+input{
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 50%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: Nunito;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
