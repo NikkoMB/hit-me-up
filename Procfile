@@ -1,1 +1,1 @@
-web: npm install && npm run start:dev
+web: nodemon index.js
